@@ -1,0 +1,1 @@
+There can be multiple national dbs of collected data, the important bit is that the lowest latency connections are made.
