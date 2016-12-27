@@ -1,0 +1,1 @@
+This level reads from actual sensors and does basic data crunching, statistical analysis, and rolling conversion of historical data to a monthly/yearly report.
