@@ -1,0 +1,6 @@
+The databases are from initial conception meant to be established in an ad-hoc way, maintained by enthusiasts and sympathizers. 
+Rules:
+Each database except for the masters are fully replacable.
+Each database must allow for easy, basically no-configure setup. 
+Each layer of database communicates through a url or universal api.
+Data is tightly controlled and encrypted at lower levels.
