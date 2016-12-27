@@ -20,6 +20,8 @@ class Point(Base):
     ReportedNormalValue = Column(Float)
 
 class CreateDatabase(object):
+    # run a bash file that downloads postgresql and sets up 
+    # localhost accordingly
     pass
     
     
