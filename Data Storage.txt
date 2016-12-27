@@ -1,0 +1,9 @@
+Data Storage and Management
+A good system might well be a distributed one in this case. Servers should be as local as possible for the regional data, and then aggregate to a single point with multiple failovers.
+On the worldwide aggregation scale, tight management of data is required. The size of the data is limited to the countries and some regional data pulled from sources regularly. All computation of statistics for each region's worst cases is done on the worldwide.
+The regional scale is somewhat trickier, at least for scale-up. At first, there will only be a few servers and a lot of tables, then after time, the number of servers will increase to handle the load and the tables in each will reflect the differentiation level required.
+The local level is the simplest - simply store the data and delete it after a period of time after it is stored in some generalizing format.
+
+The ability to scale the database ecosystem is largely determined by the development of automation tools that allow for fast setup and differentiation of nodes in a standardized way.
+
+Ensuring the standard methods of storing data and providing upload type checking are also essential.

@@ -1,0 +1,4 @@
+Client passing information to the server
+This very front end to a scaling backend is a very difficult aspect to construct. It is the weakest place information-wise and allows for construction of false reports if the system is too readable.
+The client can also not be too heavy. 
+Probably the easiest way to do this initially is a rolling set of key with client ip pathping stored. The pathping becomes a flag, which could be investigated in a social framework.

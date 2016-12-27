@@ -1,0 +1,11 @@
+Design of api and encrypted data
+Only a few variables are allowed to be passed by the sensor:
+Location
+Type of sensor
+Test type
+Sensor owner for assignment of blame and commendation (social ecosystem comes with this?)
+Value sensor produces
+Reported trigger value
+Reported threshold value
+Reported normal value
+These can be encrypted into a format, each with its own separate parse separator in a standard ascii string able to be received by a POST.
