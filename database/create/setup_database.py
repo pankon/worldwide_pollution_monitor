@@ -21,6 +21,7 @@ class Point(Base):
     ReportedTriggerValue = Column(Float)
     ReportedThresholdValue = Column(Float)
     ReportedNormalValue = Column(Float)
+    SensorUnits = Column(String)
 
 class Region(Base):
     __tablename__ = '_'.join(
