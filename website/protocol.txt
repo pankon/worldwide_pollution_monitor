@@ -1,0 +1,28 @@
+Protocol
+This is designed to be a 
+sub-website that simply handles 
+data and caches it, then passes it 
+forward at when traffic appears to 
+be low.
+The idea is that any interested 
+party can simply download these 
+files to their existing web server 
+in a subfolder named according to a 
+uuid. 
+The more access points, the better 
+- since this is designed to handle 
+worldwide traffic, the more 
+webservers that contribute the 
+better.
+
+The configuration file should set 
+up:
+- The transfer time of day
+
+Stored in memory is a mini-db of 
+encrypted user information and the 
+data sent. This file is kept as 
+small as possible (the sensor has a 
+constant list daily updated of all 
+friendly webservers, and contacts 
+the one with the lowest ping time).
