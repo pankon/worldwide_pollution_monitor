@@ -26,10 +26,10 @@ Cache protocol is:
     SensorId: 'IdString',
     TestType: 'Phosphorus',
     SensorOwner: 'Ploni',
-    SensorValue: 1.23545434
-    ReportedTriggerValue: 1.4
-    ReportedThresholdValue: 1.3
-    ReportedNormalValue: 1.24
+    SensorValue: 1.23545434,
+    ReportedTriggerValue: 1.4,
+    ReportedThresholdValue: 1.3,
+    ReportedNormalValue: 1.24,
     SensorUnits: 'ppm'
   }, ...
 }
