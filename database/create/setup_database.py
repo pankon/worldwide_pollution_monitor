@@ -8,7 +8,9 @@ from get_user_info import get_ip
 Base = declarative_base()
 
 class Point(Base):
-    __tablename__ = '_'.join(['point',get_ip().replace('.','_')])
+    __tablename__ = '_'.join(
+        ['point',get_ip().replace('.','_')]
+    )
     id = Column(String, primary_key=True)
     Location = Column(String)
     TypeOfSensor = Column(String)
@@ -21,7 +23,9 @@ class Point(Base):
     ReportedNormalValue = Column(Float)
 
 class Region(Base):
-    __tablename__ = '_'.join(['region',get_ip().replace('.','_')]
+    __tablename__ = '_'.join(
+        ['region',get_ip().replace('.','_')]
+    )
     id = Column(String, primary_key=True)
     Location = Column(String)
     TypeOfSensor = Column(String)
@@ -31,11 +35,15 @@ class Region(Base):
     LastTenValues = Column(String)
 
 class Country(Base):
-    __tablename__ = '_'.join(['country',get_ip().replace('.','_')])
+    __tablename__ = '_'.join(
+        ['country',get_ip().replace('.','_')]
+    )
     id = Column(String, primary_key=True)
 
 class World(Base):
-    __tablename__ = '_'.join(['world',get_ip().replace('.','_')])
+    __tablename__ = '_'.join(
+        ['world',get_ip().replace('.','_')]
+    )
     id = Column(String, primary_key=True)
 
 class CreateDatabase(object):
