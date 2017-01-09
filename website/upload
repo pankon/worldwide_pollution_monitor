@@ -1,8 +1,0 @@
-#!/usr/bin/php
-<?php
-    # http://stackoverflow.com/questions/6334830/php-possible-to-automatically-get-all-posted-data
-    $input =  $_POST;#file("php://input")
-    echo($input)
-    #$command = "python process_input.py $input > output.txt";
-   #popen($command, 'r');
-?>
