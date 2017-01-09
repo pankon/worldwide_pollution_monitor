@@ -11,7 +11,7 @@ def get_ip():
     return ip
     
 def main():
-    print get_ip()
+    print(get_ip())
     
 if __name__ == '__main__':
     main()
