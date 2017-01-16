@@ -26,7 +26,7 @@ if __name__ == "__main__":
         "SensorUnits"
     )
     write_vars = ("datetime", "SensorValue")
-    file_name = '_-_'.join(in_dict[key] for key in environment_variables)
+    file_name = "cache-"+'_-_'.join(in_dict[key] for key in environment_variables)
     open_type = 'a'
     if not os.path.isfile(file_name):
         open_type = 'w'
