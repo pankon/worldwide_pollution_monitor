@@ -15,7 +15,7 @@
     foreach($vars as &$value) {
         $input=$input.$value.':'.$_GET[$value].' ';
     }
-    $command = "python process_input.py $input >> cache";
+    $command = "python process_input.py $input";
     echo $input;
     $handle = popen($command, 'r');
     $output = fread($handle, 2096);
