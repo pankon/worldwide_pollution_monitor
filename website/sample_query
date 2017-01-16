@@ -1,0 +1,1 @@
+http://localhost:8000/upload.php/?ReportedTriggerValue='1.4'&SensorOwner='Ploni'&TypeOfSensor='CompanyName-Phosphorus model 001A'&SensorUnits='ppm'&ReportedThresholdValue='1.3'&SensorId='IdString'&TestType='Phosphorus'&Location='[Latitude, Longitude]'&SensorValue='1.23545434'&ReportedNormalValue='1.24'
