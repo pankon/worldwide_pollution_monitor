@@ -1,1 +1,7 @@
-Provide an interface for users to interact with the data.
+Provide an interface for users to interact with the data. This is the first
+jump to the main database. Ideally millions of streams of data will be
+coming in.. it would be unreasonable to ask any database to deal with this.
+
+Hops:
+sensor > friendly website > point database (city level, town level) > regional
+    > country > world
