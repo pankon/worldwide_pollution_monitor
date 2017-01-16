@@ -6,7 +6,7 @@ import os
 import sys
 import datetime
 import json
-from sqlalchemy import metadata
+from ..create/setup_databases import Point
 from static_config import environment_variables, write_vars
 
 if __name__ == "__main__":
