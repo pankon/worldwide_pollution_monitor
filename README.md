@@ -1,4 +1,4 @@
-Welcome to the worldwide_pollution_monitor wiki!
+Welcome to the worldwide_pollution_monitor!
 
 Is your air and water clean? This is a question we can usually answer very roughly - the smell of the air, the taste of the water. A bad smell prompts us to avoid a place, a bad taste tells us of danger.
 
