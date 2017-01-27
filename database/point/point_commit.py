@@ -6,7 +6,7 @@ import os
 import sys
 import datetime
 import json
-from database.create.setup_databases import Point, create_engine
+from create.setup_databases import Point, create_engine
 from static_config import environment_variables, write_vars
 
 if __name__ == "__main__":
